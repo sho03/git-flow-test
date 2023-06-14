@@ -2,7 +2,7 @@ name: Example Workflow
 on:
   push:
     branches:
-      - '*'
+      - 'release/*'
 
 jobs:
   example_job:
